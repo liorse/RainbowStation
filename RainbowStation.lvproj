@@ -31,7 +31,7 @@
 		<Item Name="RainbowStationMain.vi" Type="VI" URL="../RainbowStationMain.vi"/>
 		<Item Name="SPARTAN" Type="Web Service">
 			<Property Name="Bld_buildSpecName" Type="Str"></Property>
-			<Property Name="Bld_version.build" Type="Int">11</Property>
+			<Property Name="Bld_version.build" Type="Int">15</Property>
 			<Property Name="ws.autoIncrementVersion" Type="Bool">true</Property>
 			<Property Name="ws.disconnectInline" Type="Bool">true</Property>
 			<Property Name="ws.disconnectTypeDefs" Type="Bool">false</Property>
@@ -43,12 +43,27 @@
 			<Property Name="ws.serveDefaultDoc" Type="Bool">true</Property>
 			<Property Name="ws.SSE2" Type="Bool">true</Property>
 			<Property Name="ws.static_permissions" Type="Str"></Property>
-			<Property Name="ws.version.build" Type="Int">1</Property>
+			<Property Name="ws.version.build" Type="Int">2</Property>
 			<Property Name="ws.version.fix" Type="Int">0</Property>
 			<Property Name="ws.version.major" Type="Int">1</Property>
 			<Property Name="ws.version.minor" Type="Int">0</Property>
 			<Item Name="Startup VIs" Type="Startup VIs Container"/>
 			<Item Name="Web Resources" Type="HTTP WebResources Container">
+				<Item Name="GetCurrentGRIMMData.vi" Type="VI" URL="../WebServices/GetCurrentGRIMMData.vi">
+					<Property Name="ws.buffered" Type="Bool">true</Property>
+					<Property Name="ws.includeNameInURL" Type="Bool">true</Property>
+					<Property Name="ws.keepInMemory" Type="Bool">true</Property>
+					<Property Name="ws.loadAtStartup" Type="Bool">true</Property>
+					<Property Name="ws.method" Type="Int">1</Property>
+					<Property Name="ws.outputFormat" Type="Int">4</Property>
+					<Property Name="ws.outputType" Type="Int">1</Property>
+					<Property Name="ws.permissions" Type="Str"></Property>
+					<Property Name="ws.requireAPIKey" Type="Bool">false</Property>
+					<Property Name="ws.type" Type="Int">1</Property>
+					<Property Name="ws.uri" Type="Str"></Property>
+					<Property Name="ws.useHeaders" Type="Bool">true</Property>
+					<Property Name="ws.useStandardURL" Type="Bool">true</Property>
+				</Item>
 				<Item Name="GetCurrentNephData.vi" Type="VI" URL="../WebServices/GetCurrentNephData.vi">
 					<Property Name="ws.buffered" Type="Bool">true</Property>
 					<Property Name="ws.includeNameInURL" Type="Bool">true</Property>
@@ -137,7 +152,6 @@
 			<Item Name="Media Type.ctl" Type="VI" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2013/examples/Connectivity/Web Services/Weather Monitor/Web Service/Accept/Media Type.ctl"/>
 			<Item Name="Parse Accept Header.vi" Type="VI" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2013/examples/Connectivity/Web Services/Weather Monitor/Web Service/Accept/Parse Accept Header.vi"/>
 			<Item Name="Sort Media Types.vi" Type="VI" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2013/examples/Connectivity/Web Services/Weather Monitor/Web Service/Accept/Sort Media Types.vi"/>
-			<Item Name="Weather Data.lvlib" Type="Library" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2013/examples/Connectivity/Web Services/Weather Monitor/Application/Weather Data.lvlib"/>
 			<Item Name="Web Service Error Handler.vi" Type="VI" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2013/examples/Connectivity/Web Services/Weather Monitor/Web Service/Web Service Error Handler.vi"/>
 			<Item Name="ws_runtime.dll" Type="Document" URL="ws_runtime.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -242,7 +256,7 @@
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/U/RainbowStationExec</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{3E6D3657-5C07-4298-AA80-28E1C3C65E3E}</Property>
-				<Property Name="Bld_version.build" Type="Int">54</Property>
+				<Property Name="Bld_version.build" Type="Int">57</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">RainbowStation.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/U/RainbowStationExec/NI_AB_PROJECTNAME.exe</Property>
