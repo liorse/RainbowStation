@@ -31,7 +31,7 @@
 		<Item Name="RainbowStationMain.vi" Type="VI" URL="../RainbowStationMain.vi"/>
 		<Item Name="SPARTAN" Type="Web Service">
 			<Property Name="Bld_buildSpecName" Type="Str"></Property>
-			<Property Name="Bld_version.build" Type="Int">20</Property>
+			<Property Name="Bld_version.build" Type="Int">21</Property>
 			<Property Name="ws.autoIncrementVersion" Type="Bool">true</Property>
 			<Property Name="ws.disconnectInline" Type="Bool">true</Property>
 			<Property Name="ws.disconnectTypeDefs" Type="Bool">false</Property>
@@ -256,7 +256,7 @@
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/U/RainbowStationExec</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{3E6D3657-5C07-4298-AA80-28E1C3C65E3E}</Property>
-				<Property Name="Bld_version.build" Type="Int">62</Property>
+				<Property Name="Bld_version.build" Type="Int">63</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">RainbowStation.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/U/RainbowStationExec/NI_AB_PROJECTNAME.exe</Property>
