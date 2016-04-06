@@ -31,7 +31,7 @@
 		<Item Name="RainbowStationMain.vi" Type="VI" URL="../RainbowStationMain.vi"/>
 		<Item Name="SPARTAN" Type="Web Service">
 			<Property Name="Bld_buildSpecName" Type="Str"></Property>
-			<Property Name="Bld_version.build" Type="Int">26</Property>
+			<Property Name="Bld_version.build" Type="Int">27</Property>
 			<Property Name="ws.autoIncrementVersion" Type="Bool">true</Property>
 			<Property Name="ws.disconnectInline" Type="Bool">true</Property>
 			<Property Name="ws.disconnectTypeDefs" Type="Bool">false</Property>
@@ -269,20 +269,20 @@
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/U/RainbowStationExec</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/D/Box Sync/LabBox/Software/Rainbow Station</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{3E6D3657-5C07-4298-AA80-28E1C3C65E3E}</Property>
-				<Property Name="Bld_version.build" Type="Int">68</Property>
+				<Property Name="Bld_version.build" Type="Int">69</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">RainbowStation.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/U/RainbowStationExec/NI_AB_PROJECTNAME.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/D/Box Sync/LabBox/Software/Rainbow Station/NI_AB_PROJECTNAME.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/U/RainbowStationExec/data</Property>
+				<Property Name="Destination[1].path" Type="Path">/D/Box Sync/LabBox/Software/Rainbow Station/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{4930B913-7720-456F-817E-419444A8665E}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{A2781BCC-5A6E-4951-B998-991B6A0061B6}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/RainbowStationMain.vi</Property>
